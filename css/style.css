@@ -1,0 +1,28 @@
+.menu{
+    margin: 0px auto;
+    width: 700px;
+    background-color: #2696e8;
+    border: 1px solid blue;
+}
+
+
+ul{
+    display: flex;
+    /*выстраивает потомков в ряд по порядку*/
+    flex-direction: row;
+    /*распределяет равномерно*/
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    color: #fff;
+    list-style-type: none;
+    padding: 10px;
+}
+
+li:hover{
+    background-color: #fff;
+    color: #2696e8;
+}
