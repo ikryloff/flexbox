@@ -25,6 +25,8 @@ li{
     color: #fff;
     list-style-type: none;
     padding: 10px;
+    border: 1px solid blue;
+    text-align: center;
 }
 
 li:hover{
