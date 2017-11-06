@@ -8,8 +8,8 @@
 
 ul{
     display: flex;
-    /*выстраивает потомков в ряд по порядку*/
-    flex-direction: row;
+    /*выстраивает потомков в ряд в обратном порядке*/
+    flex-direction: row-reverse;
     /*распределяет равномерно*/
     justify-content: space-between;
     padding: 0;
