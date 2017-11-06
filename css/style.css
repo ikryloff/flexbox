@@ -8,10 +8,15 @@
 
 ul{
     display: flex;
-    /*выстраивает потомков в ряд в обратном порядке*/
-    flex-direction: row-reverse;
-    /*распределяет равномерно*/
-    justify-content: space-between;
+    flex-direction: row;
+    /*выстраивает потомков в ряд в обратном порядке
+    flex-direction: row-reverse;*/
+
+    /*распределяет равномерно
+    justify-content: space-between;*/
+    /*ставит по центру*/
+    justify-content: center;
+
     padding: 0;
     margin: 0;
 }
